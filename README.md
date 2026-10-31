@@ -27,9 +27,6 @@ python -m venv .venv
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
-```
-
-Set `OPENAI_API_KEY` in `.env`, then run:
 
 ```bash
 streamlit run app.py
